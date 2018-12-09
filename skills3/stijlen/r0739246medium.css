@@ -1,0 +1,61 @@
+* {
+ padding: 0;
+ margin: 0;
+font-family: 'courier', fixed ;
+}
+
+#primair {
+    display: none;
+}
+
+#gaming {
+    display: contents;
+}
+
+#luxe {
+    display: none;
+}
+
+h2, p {
+    padding: 10px 0px;
+}
+#image {
+     height: 200px;
+     background-position: center center;
+     background-repeat: no-repeat;
+ }
+
+ #container {
+     background-color: black;
+     color: lightcyan;
+ }
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 0;
+    flex: auto;
+    display: flex;
+}
+
+nav a {
+    background-color: blue;
+    color: darkblue;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 1 1 auto;
+    flex: 1 1 auto;
+    font-family: bold, fixed;
+}
+nav a:hover {
+    text-decoration: line-through;
+    background-color: lightcyan;
+}
+
+#image {
+    background-image: url(../afbeeldingen/medium.jpg);
+}

@@ -1,36 +1,76 @@
- * { 
-    padding: 0; 
-    margin: 0; 
-} 
-h2, 
-p { 
-    padding: 10px 0px; 
-} 
-#image { 
-    height: 200px; 
-    background-
-position: center center; 
-    background-
-repeat: no-
-repeat; 
-} 
-#container { 
-    background-
-color: #fff; 
-    color: #000; 
-} 
-nav a { 
-    text-
-decoration: none; 
-} 
-nav a:hover { 
-    text-
-decoration: underline; 
-} 
-footer { 
-    text-
-align: right; 
-    font-
-weight: bold; 
-    padding: 10px; 
-} 
+ * {
+     padding: 0;
+     margin: 0;
+     font-family: 'Tahoma', serif;
+ }
+
+ #primair {
+     display: contents;
+ }
+
+ #gaming {
+     display: none;
+ }
+
+ #luxe {
+     display: none;
+ }
+
+body {
+    background-color: #fff;
+}
+
+ h2,
+ p {
+     padding: 10px 0px;
+ }
+
+ #image {
+     height: 200px;
+     background-position: center center;
+     background-repeat: no-repeat;
+ }
+
+ #container {
+     background-color: yellow;
+     color: blue;
+ }
+
+ nav a {
+     text-decoration: none;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+ }
+
+ footer {
+     text-align: center;
+     font-weight: bold;
+     padding: 10px;
+ }
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 0;
+    flex: auto;
+    display: flex;
+}
+
+nav a {
+    background-color: blue;
+    color: yellow;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 1 1 auto;
+    flex: 1 1 auto;
+}
+nav a:hover {
+    background-color: red;
+}
+#image{
+    background-image: url(../afbeeldingen/basis.jpg);

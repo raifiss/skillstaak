@@ -1,0 +1,80 @@
+* {
+ padding: 0;
+ margin: auto;
+font-family: 'Bradley Hand', cursive;
+width: 900px;
+}
+
+#primair {
+    display: none;
+}
+
+#gaming {
+    display: none;
+}
+
+#luxe {
+    display: contents;
+}
+
+h2 {
+    font-family: 'Apple Chancery', cursive;
+}
+
+h2, p {
+    padding: 10px 0px;
+}
+#image {
+ height: 200px;
+ background-position:center center;
+ background-repeat: no-repeat;
+}
+
+.geheel p{
+    border: 3px solid pink;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    width:  400px;
+}
+
+.geheel{
+    display:flex;
+    background-color: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#container {
+    background-color: blanchedalmond;
+    color: lightcoral;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-left: 0;
+    flex: auto;
+    display: flex;
+    width: 200px;
+}
+nav a {
+    background-color: lightcoral;
+    text-decoration: none;
+    padding: 5px;
+    color: blanchedalmond;
+    font-weight: 1 1 auto;
+    flex: 1 1 auto;
+}
+#image{
+    background-image: url(../afbeeldingen/groot.jpg);
+
+nav a:hover {
+    background-color: blanchedalmond;
+    color: lightcoral;
+    text-decoration: none;
+}
